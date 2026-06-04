@@ -2,15 +2,8 @@
 
 This repository is the official implementation of **MOCHEE: Accurate Source-Free Speech Classification via Meta-Learned Target-Centric Model Merging** accepted at **Interspeech 2026**.
 
-This repository contains the implementation of **MOCHEE**, a target-centric model merging framework for source-free speech classification.
+![Overview of MOCHEE](overview.png)
 
-## Abstract
-
-How can we build a speech classifier for an unseen target domain when access to source-domain data is unavailable?
-
-Speech classification is widely used in real-world applications such as voice commands and emotion recognition, but its performance often degrades under domain shifts. This issue becomes more critical when source-domain data cannot be accessed and only pretrained source classifiers with limited labeled target data are available.
-
-In this work, we propose **MOCHEE**, an accurate target-centric model merging framework for source-free speech classification. MOCHEE combines multiple pretrained source models using limited target data. To improve generalization under scarce target labels, MOCHEE uses meta-learning to resolve representation misalignment and emphasize target-relevant sources. Extensive experiments show that MOCHEE outperforms existing baselines.
 
 ## Requirements
 
