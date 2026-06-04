@@ -1,4 +1,4 @@
-# MOCHEE: Accurate Source-Free Speech Classification via Meta-Learned Target-Centric Model Merging
+# Accurate Source-Free Speech Classification via Meta-Learned Target-Centric Model Merging
 
 This repository is the official implementation of **MOCHEE: Accurate Source-Free Speech Classification via Meta-Learned Target-Centric Model Merging** accepted at **Interspeech 2026**.
 
