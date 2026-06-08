@@ -60,6 +60,24 @@ Main arguments:
 * `--tgt_test_ratio`: ratio of target test data
 * `--device`: device for running experiments
 
+## Data Overview
+
+We utilize six benchmark speech emotion classification datasets from the CAMEO collection. Each dataset is treated as an independent domain, and the emotion labels are unified into six shared classes: anger, disgust, fear, happiness, neutral, and sadness.
+
+| Dataset | Language | # Instances | Role |
+|---|---:|---:|---|
+| CREMA-D | English | 7,442 | Source |
+| SubESCO | Bengali | 6,000 | Source |
+| RAVDESS | English | 1,056 | Source |
+| MESD | Spanish | 862 | Source |
+| CAFÉ | Canadian French | 792 | Target |
+| Oréau | French | 430 | Target |
+
+All datasets are available through the CAMEO collection:
+
+https://huggingface.co/datasets/amu-cai/CAMEO
+
+
 ## Notes
 
 * This implementation assumes that source-domain data are unavailable.
