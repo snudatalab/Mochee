@@ -73,9 +73,7 @@ We utilize six benchmark speech emotion classification datasets from the CAMEO c
 | CAFÉ | Canadian French | 792 | Target |
 | Oréau | French | 430 | Target |
 
-All datasets are available through the CAMEO collection:
-
-https://huggingface.co/datasets/amu-cai/CAMEO
+All datasets are available through the CAMEO collection:  https://huggingface.co/datasets/amu-cai/CAMEO 
 
 
 ## Notes
