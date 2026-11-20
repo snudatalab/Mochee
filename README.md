@@ -88,7 +88,7 @@ If you use this code, please cite the following paper.
 
 ```bibtex
 @inproceedings{Park26MOCHEE,
-  author    = {Ka Hyun Park, Junghun Kim, and U Kang},
+  author    = {Ka Hyun Park and Junghun Kim and U Kang},
   title     = {Accurate Source-Free Speech Classification via Meta-Learned Target-Centric Model Merging},
   booktitle = {Interspeech},
   year      = {2026}
