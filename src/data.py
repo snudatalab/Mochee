@@ -1,3 +1,19 @@
+"""
+Accurate Source-Free Speech Classification via Meta-Learned Target-Centric Model Merging (Interspeech 2026)
+
+Authors:
+- Ka Hyun Park (kahyun.park@snu.ac.kr), Seoul National University
+- Junghun Kim (bandalg97@snu.ac.kr), Seoul National University
+- U Kang (ukang@snu.ac.kr), Seoul National University
+
+This software is free of charge under research purposes.
+
+For other purposes (e.g. commercial), please contact the authors.
+
+data.py
+    - codes for loading pretrained source models and target data
+"""
+
 from __future__ import annotations
 
 import os
