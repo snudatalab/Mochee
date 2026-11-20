@@ -1,6 +1,22 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+"""
+Accurate Source-Free Speech Classification via Meta-Learned Target-Centric Model Merging (Interspeech 2026)
+
+Authors:
+- Ka Hyun Park (kahyun.park@snu.ac.kr), Seoul National University
+- Junghun Kim (bandalg97@snu.ac.kr), Seoul National University
+- U Kang (ukang@snu.ac.kr), Seoul National University
+
+This software is free of charge under research purposes.
+
+For other purposes (e.g. commercial), please contact the authors.
+
+main.py
+    - codes for running the overall process of Mochee (merging source models and evaluating on the target domain)
+"""
+
 from __future__ import annotations
 
 import argparse
